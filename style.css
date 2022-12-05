@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+.profile {
+    border-radius: 50%;
+}
+
+#bienvenida {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(#02fdfd 0%, #e2f57a 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+
+}
+
+#nombre {
+    font-size: 50px;
+    font-family: cursive;
+
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: monospace;
+}
+
+#bio {
+    font-family:  cursive;
+    padding: 50px;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.parallax-inner {
+
+    display: table-cell;
+    vertical-align: middle;
+}
+.línea{
+    /* Project57- Design the class line: height 6px, background color black, width 70px and margin 8px auto.*/
+      height: 6px;
+      background-color:black;
+      width:70px;
+      margin:8px auto;
+  }
+  #bio{
+     /*  Give padding 20px, font size 18px and align the text in the center.*/
+      padding:20px;
+      font-size:18;
+      text-align:center;
+  }
+  .menú{
+     list-style: none;
+      font-family:cursive;
+     float:right;
+      top:10px;
+      right:30px;
+      cursor: pointer;
+      color:black;
+  }
+  .menú a{
+      color:black !important;
+  }
+  
+  
+  .link{
+      color:crimson;
+      display: inline;
+      padding-top:5px;
+      padding-left:9px;
+      padding-right:9px;
+      padding-bottom: 5px;
+  }
+     .link:hover{
+      background-color:beige;
+  }
+  
+  #Mi trabajo a{
+      font-size: :30px;
+      
+  }
+  #Referencias a{
+      font-size: :30px;
+      
+  }
+  #foto{
+      width:auto;
+      height:300px;
+     border-radius:0%;
+      
+      margin:20px;
+  }
+  .inspiración
+  {
+    background: #373B44;  /* alternativa para navegadores antiguos */
+  
+   background: linear-gradient( #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding-top:20px;
+  }
+  
+  img {
+  transition: transform .2s;
+  }
+  
+  img:hover {
+    /* Project60- Usa la propiedad 'transform' para cambiar la escala de imágenes cuando se mueve el ratón encima de ellas.*/
+      /*nombre de la propiedad*/: scale(0.9);
+  }
+  
+  #contacto a{
+      font-size: 30px !important;
+      font-family: 'Courgette', cursive !important;
+        
+  }
+  
+  #contacto{
+      background-color: chartreuse;
+       padding-top: 20px;
+  }
+  
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+   
+  
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  li {
+    border-right: 1px solid #bbb;
+  }
+  
+  
+  
+  ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  section
+  {
+   background: #4e54c8;  /* alternativa para navegadores antiguos */
+  background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   Safari 7+ */
+  }
